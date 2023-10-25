@@ -9,6 +9,8 @@ import Disparo from "./assets/Disparo2.mp3";
 import Silvido from "./assets/Silbido.mp3";
 import Campanita from "./assets/Campanitas.mp3";
 import DisparosFX from "./assets/DisparosFX.mp3";
+import puertaAbriendose from "./assets/puertaAbriendose.mp3";
+import Pasos from "./assets/Pasos.mp3";
 import ButtonSound2 from './components/ButtonSound2';
 import ButtonSound from './components/ButtonSound'; 
 
@@ -26,8 +28,12 @@ function App() {
         <ButtonSound soundName={Disparos} />
         <h4 className="mx-4">Besame Mucho</h4>
         <ButtonSound soundName={Besame} />
-        <h4 className="mx-4">Puerta y pasos</h4>
-        <ButtonSound soundName={PuertayPasos} />
+        {/* <h4 className="mx-4">Puerta y pasos</h4>
+        <ButtonSound soundName={PuertayPasos} /> */}
+        <h4 className="mx-4">Puerta abriendose</h4>
+        <ButtonSound soundName={puertaAbriendose} />
+        <h4 className="mx-4">Pasos</h4>
+        <ButtonSound soundName={Pasos} />
 
 
         <div className="w-full text-center">
