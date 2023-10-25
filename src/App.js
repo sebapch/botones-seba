@@ -18,9 +18,9 @@ function App() {
     
     <div className="flex flex-col mb-16">
         <div className="w-full text-center">
-          <h1 className="mt-4">Escena 1</h1>
+          <h1 >Escena 1</h1>
         </div>
-        <h4 className="mx-4">Telefonos de oficina</h4>
+        <h4 >Telefonos de oficina</h4>
         <ButtonSound2 soundName={Telefono} />
          <h4 className="mx-4">Disparos</h4>
         <ButtonSound soundName={Disparos} />
