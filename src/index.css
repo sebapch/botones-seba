@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -12,4 +17,14 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+/* Style the play button */
+audio::-webkit-media-controls-start-playback-button {
+  transform: scale(3); /* Adjust the scale factor as needed to make it larger */
+}
+
+audio::-webkit-media-controls-play-button {
+  transform: scale(3); /* Adjust the scale factor as needed to make it larger */
 }

@@ -1,5 +1,6 @@
 
 import React, { useState } from "react";
+import '../index.css'
 
 const ButtonSound2 = ({ soundName }) => {
   const [volume, setVolume] = useState(0.5);
@@ -16,7 +17,7 @@ const ButtonSound2 = ({ soundName }) => {
   return (
     <>
       <div >
-        <audio id={soundName} controls className="w-[100%]">
+        <audio id={soundName} controls className="w-[100%] audio-control">
           <source src={soundName} type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
