@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import '../index.css'
 
 const ButtonSound2 = ({ soundName }) => {
-  const [volume, setVolume] = useState(0.5);
+  const [volume, setVolume] = useState(1);
 
   const handleVolumeChange = (e) => {
     const newVolume = parseFloat(e.target.value);

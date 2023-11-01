@@ -22,9 +22,9 @@ code {
 
 /* Style the play button */
 audio::-webkit-media-controls-start-playback-button {
-  transform: scale(3); /* Adjust the scale factor as needed to make it larger */
+  transform: scale(4); /* Adjust the scale factor as needed to make it larger */
 }
 
 audio::-webkit-media-controls-play-button {
-  transform: scale(3); /* Adjust the scale factor as needed to make it larger */
+  transform: scale(4); /* Adjust the scale factor as needed to make it larger */
 }
