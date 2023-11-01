@@ -11,6 +11,14 @@ import Campanita from "./assets/Campanitas.mp3";
 import DisparosFX from "./assets/DisparosFX.mp3";
 import puertaAbriendose from "./assets/puertaAbriendose.mp3";
 import Pasos from "./assets/Pasos.mp3";
+import Escena1 from "./assets/Escena1.mp3";
+import Escena2 from "./assets/Escena2.mp3";
+import Escena3 from "./assets/Escena3.mp3";
+import Escena4 from "./assets/Escena4.mp3";
+import Escena5 from "./assets/Escena5.mp3";
+import Escena6 from "./assets/Escena5.mp3";
+import Escena7 from "./assets/Escena7.mp3";
+import Escena8 from "./assets/Escena7.mp3";
 import ButtonSound2 from './components/ButtonSound2';
 import ButtonSound from './components/ButtonSound'; 
 
@@ -21,7 +29,7 @@ function App() {
     <div className="flex flex-col mb-16">
         <div className="w-full text-center">
           <h2 className="font-semibold  text-xl mb-4">Musica entre escena 1 y 2</h2>
-          <ButtonSound soundName={Disparos} />
+          <ButtonSound soundName={Escena1} />
           <h1 className="font-bold underline text-2xl mb-4">Escena 1</h1>
         </div>
         <h4 className="font-semibold text-xl m-4">Telefonos de oficina</h4>
@@ -39,22 +47,22 @@ function App() {
 
         <div className="w-full text-center">
         <h2 className="font-semibold  text-xl my-4">Musica entre escena 2 y 3</h2>
-          <ButtonSound soundName={Disparos} />
+          <ButtonSound soundName={Escena2} />
         </div>
 
         <div className="w-full text-center">
         <h2 className="font-semibold  text-xl my-4">Musica entre escena 3 y 4</h2>
-          <ButtonSound soundName={Disparos} />
+          <ButtonSound soundName={Escena3} />
         </div>
 
         <div className="w-full text-center">
         <h2 className="font-semibold  text-xl my-4">Musica entre escena 4 y 5</h2>
-          <ButtonSound soundName={Disparos} />
+          <ButtonSound soundName={Escena4} />
         </div>
 
         <div className="w-full text-center">
         <h2 className="font-semibold  text-xl my-4">Musica entre escena 5 y 6</h2>
-          <ButtonSound soundName={Disparos} />
+          <ButtonSound soundName={Escena5} />
         </div>
 
         <div className="w-full text-center">
@@ -66,7 +74,7 @@ function App() {
         <div className="w-full text-center">
         
         <h2 className="font-semibold  text-xl my-4">Musica entre escena 6 y 7</h2>
-          <ButtonSound soundName={Disparos} />
+          <ButtonSound soundName={Escena6} />
         
           <h1 className="font-bold underline text-2xl my-4">Escena 7</h1>
         </div>
@@ -81,7 +89,7 @@ function App() {
         
         <div className="w-full text-center">
         <h2 className="font-semibold  text-xl my-4">Musica entre escena 7 y 8</h2>
-          <ButtonSound soundName={Disparos} />
+          <ButtonSound soundName={Escena7} />
           <h1 className="font-bold underline text-2xl my-4">Escena 8</h1>
         </div>
         <h4 className="font-semibold text-xl m-4">Besame mucho con volumen</h4>
@@ -92,7 +100,7 @@ function App() {
         <ButtonSound soundName={Bomba} className='mb-16' />
 
         <h2 className="font-semibold  text-xl m-4">Musica FINAL</h2>
-          <ButtonSound soundName={Disparos} />
+          <ButtonSound soundName={Escena8} />
       </div>
   );
 }
