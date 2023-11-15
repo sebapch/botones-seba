@@ -10,6 +10,7 @@ import Silvido from "./assets/Silbido.mp3";
 import Campanita from "./assets/Campanitas.mp3";
 import DisparosFX from "./assets/DisparosFX.mp3";
 import puertaAbriendose from "./assets/puertaAbriendose.mp3";
+import AlarmaReuter from './assets/AlarmaReuter.mp3';
 import Pasos from "./assets/Pasos.mp3";
 import Escena1 from "./assets/Escena1.mp3";
 import Escena2 from "./assets/Escena2.mp3";
@@ -20,6 +21,17 @@ import Escena6 from "./assets/Escena5.mp3";
 import Escena7 from "./assets/Escena7.mp3";
 import Escena8 from "./assets/Escena7.mp3";
 import Foto1 from "./assets/FOTO1.m4a";
+import Foto2 from "./assets/FOTO2.m4a";
+import Foto3 from "./assets/FOTO3.m4a";
+import Foto4 from "./assets/FOTO4.m4a";
+import Foto5 from "./assets/FOTO5.m4a";
+import Foto6 from "./assets/FOTO6.m4a";
+import Foto7 from "./assets/FOTO7.m4a";
+import Foto8 from "./assets/FOTO8.m4a";
+import Foto9 from "./assets/FOTO9.m4a";
+import Foto10 from "./assets/FOTO10.m4a";
+import Foto11 from "./assets/FOTO11.m4a";
+import Foto12 from "./assets/FOTO12.m4a";
 import ButtonSound2 from './components/ButtonSound2';
 import ButtonSound from './components/ButtonSound'; 
 
@@ -49,7 +61,7 @@ function App() {
 
         <div className="w-full text-center">
         <h2 className="font-semibold  text-xl my-4">Musica Escena 2 </h2>
-          <ButtonSound soundName={Foto1} />
+          <ButtonSound soundName={Escena2} />
         </div>
 
         <div className="w-full text-center">
@@ -63,8 +75,34 @@ function App() {
         </div>
 
         <div className="w-full text-center">
-        <h2 className="font-semibold  text-xl my-4">Musica Escena 5</h2>
+        <h1 className="font-bold underline text-2xl mb-4">Escena 5</h1>
+        <h2 className="font-semibold  text-xl my-4">Musica 5</h2>
           <ButtonSound soundName={Escena5} />
+          <h2 className="font-semibold  text-xl my-4">FOTO 1</h2>
+          <ButtonSound soundName={Foto1} />
+          <h2 className="font-semibold  text-xl my-4">FOTO 2</h2>
+          <ButtonSound soundName={Foto2} />
+          <h2 className="font-semibold  text-xl my-4">FOTO 3</h2>
+          <ButtonSound soundName={Foto3} />
+          <h2 className="font-semibold  text-xl my-4">FOTO 4</h2>
+          <ButtonSound soundName={Foto4} />
+          <h2 className="font-semibold  text-xl my-4">FOTO 5</h2>
+          <ButtonSound soundName={Foto5} />
+          <h2 className="font-semibold  text-xl my-4">FOTO 6</h2>
+          <ButtonSound soundName={Foto6} />
+          <h2 className="font-semibold  text-xl my-4">FOTO 7</h2>
+          <ButtonSound soundName={Foto7} />
+          <h2 className="font-semibold  text-xl my-4">FOTO 8</h2>
+          <ButtonSound soundName={Foto8} />
+          <h2 className="font-semibold  text-xl my-4">FOTO 9</h2>
+          <ButtonSound soundName={Foto9} />
+          <h2 className="font-semibold  text-xl my-4">FOTO 10</h2>
+          <ButtonSound soundName={Foto10} />
+          <h2 className="font-semibold  text-xl my-4">FOTO 11</h2>
+          <ButtonSound soundName={Foto11} />
+          <h2 className="font-semibold  text-xl my-4">FOTO 12</h2>
+          <ButtonSound soundName={Foto12} />
+
         </div>
 
         <div className="w-full text-center">
@@ -98,6 +136,8 @@ function App() {
         <ButtonSound2 soundName={Besame} />
         <h4 className="font-semibold text-xl m-4">Campanita</h4>
         <ButtonSound soundName={Campanita} />
+        <h4 className="font-semibold text-xl m-4">Alarma Reuter</h4>
+        <ButtonSound soundName={AlarmaReuter} className='mb-16' />
         <h4 className="font-semibold text-xl m-4">Bomba</h4>
         <ButtonSound soundName={Bomba} className='mb-16' />
 
