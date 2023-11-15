@@ -4,6 +4,7 @@ import Telefono from "./assets/Telefonos.mp3";
 import Disparos from "./assets/disparos.mp3";
 import Besame from "./assets/BesameMucho.mp3";
 import PuertayPasos from "./assets/PuertayPasos.mp3";
+import CumbiaBesame from "./assets/CumbiaBesameMucho.mp3";
 import Escena4Grabacion from "./assets/Escena4Grabacion.mp3";
 import Bomba from "./assets/bombaNueva.mp3";
 import Disparo from "./assets/Disparo2.mp3";
@@ -146,7 +147,7 @@ function App() {
         <ButtonSound soundName={Bomba} className='mb-16' />
 
         <h2 className="font-semibold  text-xl m-4">Musica FINAL</h2>
-          <ButtonSound soundName={Escena8} />
+          <ButtonSound soundName={CumbiaBesame} />
       </div>
   );
 }
