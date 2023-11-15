@@ -4,6 +4,7 @@ import Telefono from "./assets/Telefonos.mp3";
 import Disparos from "./assets/disparos.mp3";
 import Besame from "./assets/BesameMucho.mp3";
 import PuertayPasos from "./assets/PuertayPasos.mp3";
+import Escena4Grabacion from "./assets/Escena4Grabacion.m4a";
 import Bomba from "./assets/bombaNueva.mp3";
 import Disparo from "./assets/Disparo2.mp3";
 import Silvido from "./assets/Silbido.mp3";
@@ -70,14 +71,16 @@ function App() {
         </div>
 
         <div className="w-full text-center">
+          <h1 className="font-bold underline text-2xl my-4">Escena 4</h1>
+          <h2 className="font-semibold  text-xl my-4">Grabacion</h2>
+          <ButtonSound soundName={Escena4Grabacion} />
         <h2 className="font-semibold  text-xl my-4">Musica Escena 4</h2>
           <ButtonSound soundName={Escena4} />
         </div>
 
         <div className="w-full text-center">
         <h1 className="font-bold underline text-2xl mb-4">Escena 5</h1>
-        <h2 className="font-semibold  text-xl my-4">Musica 5</h2>
-          <ButtonSound soundName={Escena5} />
+        
           <h2 className="font-semibold  text-xl my-4">FOTO 1</h2>
           <ButtonSound soundName={Foto1} />
           <h2 className="font-semibold  text-xl my-4">FOTO 2</h2>
@@ -102,7 +105,8 @@ function App() {
           <ButtonSound soundName={Foto11} />
           <h2 className="font-semibold  text-xl my-4">FOTO 12</h2>
           <ButtonSound soundName={Foto12} />
-
+          <h2 className="font-semibold  text-xl my-4">Musica 5</h2>
+          <ButtonSound soundName={Escena5} />
         </div>
 
         <div className="w-full text-center">
