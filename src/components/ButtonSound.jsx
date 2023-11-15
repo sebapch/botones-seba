@@ -8,7 +8,6 @@ const ButtonSound = ({ soundName }) => {
     
 
   //this is telefono
-  console.log(soundName) 
   return (
     <>
         <div >
