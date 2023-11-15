@@ -4,7 +4,7 @@ import Telefono from "./assets/Telefonos.mp3";
 import Disparos from "./assets/disparos.mp3";
 import Besame from "./assets/BesameMucho.mp3";
 import PuertayPasos from "./assets/PuertayPasos.mp3";
-import Bomba from "./assets/bomba.mp3";
+import Bomba from "./assets/bombaNueva.mp3";
 import Disparo from "./assets/Disparo2.mp3";
 import Silvido from "./assets/Silbido.mp3";
 import Campanita from "./assets/Campanitas.mp3";
@@ -19,6 +19,7 @@ import Escena5 from "./assets/Escena5.mp3";
 import Escena6 from "./assets/Escena5.mp3";
 import Escena7 from "./assets/Escena7.mp3";
 import Escena8 from "./assets/Escena7.mp3";
+import Foto1 from "./assets/FOTO1.m4a";
 import ButtonSound2 from './components/ButtonSound2';
 import ButtonSound from './components/ButtonSound'; 
 
@@ -28,27 +29,27 @@ function App() {
     
     <div className="flex flex-col mb-16">
         <div className="w-full text-center">
+          <h1 className="font-bold underline text-2xl mb-4">Escena 1</h1>
           <h2 className="font-semibold  text-xl mb-4">Musica Escena 1 </h2>
           <ButtonSound soundName={Escena1} />
-          <h1 className="font-bold underline text-2xl mb-4">Escena 1</h1>
         </div>
 
-        <h4 className="font-semibold text-xl m-4">Telefonos de oficina</h4>
+        <h4 className="font-semibold text-center text-xl m-4">Telefonos de oficina</h4>
         <ButtonSound2 soundName={Telefono} />
-         <h4 className="font-semibold text-xl m-4">Disparos</h4>
+         <h4 className="font-semibold text-center text-xl m-4">Disparos</h4>
         <ButtonSound soundName={Disparos} />
-        <h4 className="font-semibold text-xl m-4">Besame Mucho</h4>
+        <h4 className="font-semibold text-center text-xl m-4">Besame Mucho</h4>
         <ButtonSound soundName={Besame} />
         {/* <h4 className="mx-4">Puerta y pasos</h4>
         <ButtonSound soundName={PuertayPasos} /> */}
-        <h4 className="font-semibold text-xl m-4">Puerta abriendose</h4>
+        <h4 className="font-semibold text-xl text-center m-4">Puerta abriendose</h4>
         <ButtonSound soundName={puertaAbriendose} />
-        <h4 className="font-semibold text-xl m-4">Pasos</h4>
+        <h4 className="font-semibold text-center text-xl m-4">Pasos</h4>
         <ButtonSound soundName={Pasos} />
 
         <div className="w-full text-center">
         <h2 className="font-semibold  text-xl my-4">Musica Escena 2 </h2>
-          <ButtonSound soundName={Escena2} />
+          <ButtonSound soundName={Foto1} />
         </div>
 
         <div className="w-full text-center">
